@@ -1,0 +1,26 @@
+{
+  "name": "cypress-basic-to-advanced",
+  "version": "1.0.0",
+  "description": "cypress from basic to advanced",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/januariod/cypress-basic-to-advanced.git"
+  },
+  "keywords": [
+    "cypress",
+    "basic",
+    "intermediate",
+    "advanced",
+    "automation"
+  ],
+  "author": "Daniel Januario",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/januariod/cypress-basic-to-advanced/issues"
+  },
+  "homepage": "https://github.com/januariod/cypress-basic-to-advanced#readme"
+}
