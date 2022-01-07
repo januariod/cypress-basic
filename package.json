@@ -1,26 +1,30 @@
 {
-  "name": "cypress-basic-to-advanced",
+  "name": "cypress-basic",
   "version": "1.0.0",
-  "description": "cypress from basic to advanced",
+  "description": "Baic of cypress",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/januariod/cypress-basic-to-advanced.git"
+    "url": "git+https://github.com/januariod/cypress-basic.git"
   },
   "keywords": [
     "cypress",
     "basic",
-    "intermediate",
-    "advanced",
     "automation"
   ],
   "author": "Daniel Januario",
-  "license": "MIT License",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/januariod/cypress-basic-to-advanced/issues"
+    "url": "https://github.com/januariod/cypress-basic/issues"
   },
-  "homepage": "https://github.com/januariod/cypress-basic-to-advanced#readme"
+  "homepage": "https://github.com/januariod/cypress-basic#readme",
+  "devDependencies": {
+    "cypress": "^9.2.0",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
 }
