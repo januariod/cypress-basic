@@ -6,7 +6,7 @@ describe('Tickets', () => {
     cy.visit('https://ticket-box.s3.eu-central-1.amazonaws.com/index.html');
   });
 
-  it("has 'TICKETBOX' header's heading", () => {
+  it('has \'TICKETBOX\' header\'s heading', () => {
     cy.get('header h1').should('have.text', 'TICKETBOX');
   });
 
@@ -49,7 +49,7 @@ describe('Tickets', () => {
     cy.get('#email.invalid').should('not.exist');
   });
 
-  it('fills and reset the form', () => {
+  it('fills and reset the form', { tags: 'smoke' }, () => {
     const firstName = 'Daniel';
     const lastName = 'Januario';
     const fullName = `${firstName} ${lastName}`;
@@ -76,7 +76,7 @@ describe('Tickets', () => {
     cy.get('@submitButton').should('be.disabled');
   });
 
-  it('fills mandatory fields using support commands', () => {
+  it('fills mandatory fields using support commands', { tags: 'smoke' }, () => {
     const customer = {
       firstName: 'Daniel',
       lastName: 'Januario',

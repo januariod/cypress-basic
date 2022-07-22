@@ -1,16 +1,33 @@
 module.exports = {
-  env: {
-    es2021: true,
-    node: true,
+  'env': {
+    'browser': true,
+    'commonjs': true,
+    'es2021': true,
+    'node': true
   },
-  extends: [
-    'airbnb-base',
-    // 'plugin:cypress/recommended',
-  ],
-  parserOptions: {
-    ecmaVersion: 13,
-    sourceType: 'module',
+  'extends': 'eslint:recommended',
+  'parserOptions': {
+    'ecmaVersion': 'latest'
   },
-  rules: {
-  },
+  'rules': {
+    'indent': [
+      'error',
+      2
+    ],
+    'linebreak-style': [
+      'error',
+      'unix'
+    ],
+    'quotes': [
+      'error',
+      'single'
+    ],
+    'semi': [
+      'error',
+      'always'
+    ],
+    'no-trailing-spaces': [
+      'error'
+    ]
+  }
 };
